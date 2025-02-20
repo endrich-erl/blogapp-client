@@ -23,7 +23,7 @@ export default function BlogView() {
             return;
         }
 
-        fetch(`https://blogapp-server-1-uj1f.onrender.com/addComment/${blogId}`, {
+        fetch(`https://blogapp-server-1-uj1f.onrender.com/blogs/addComment/${blogId}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
